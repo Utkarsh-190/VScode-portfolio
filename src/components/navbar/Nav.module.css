@@ -1,0 +1,68 @@
+.nav {
+  height: 4vh;
+  background: #24292e;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ------ logo and toolbar -------- */
+
+.logo-and-toolbar {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-and-toolbar > * {
+  cursor: pointer;
+}
+
+.vs-code-icon {
+  width: 1.2rem;
+}
+
+@media (max-width: 950px) {
+  .logo-and-toolbar {
+    width: 1.5rem;
+  }
+
+  .logo-and-toolbar > :not(:first-child) {
+    display: none;
+  }
+}
+
+/* ----- header ------------ */
+
+.header-text {
+  /* position: relative;
+  right: 150px; */
+}
+
+/* ----- control buttons --------- */
+
+.control-buttons {
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.control-buttons > a {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.yellow-button {
+  background: yellow;
+}
+
+.green-button {
+  background: green;
+}
+
+.red-button {
+  background: red;
+}
