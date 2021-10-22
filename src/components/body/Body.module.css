@@ -1,0 +1,17 @@
+.body {
+  height: 92.5vh;
+  color: white;
+  display: flex;
+}
+
+.activityBar {
+  flex: 0 0 3rem;
+}
+
+.fileExplorer {
+  flex: 1 0 10rem;
+}
+
+.textArea {
+  flex: 20 0 30rem;
+}

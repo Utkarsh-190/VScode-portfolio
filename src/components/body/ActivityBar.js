@@ -1,7 +1,7 @@
-import classes from "./ActivityBar.modules.css";
+import classes from "./ActivityBar.module.css";
 
-function ActivityBar() {
-  return <></>;
+function ActivityBar(props) {
+  return <div className={`${classes.activityBar} ${props.className}`}>AB</div>;
 }
 
 export default ActivityBar;

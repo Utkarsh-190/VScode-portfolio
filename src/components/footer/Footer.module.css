@@ -1,6 +1,7 @@
 .footer {
   height: 3.5vh;
   background: #0f8bd3;
+  color: white;
   display: flex;
   justify-content: space-between;
 }
