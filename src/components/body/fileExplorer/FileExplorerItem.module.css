@@ -1,0 +1,7 @@
+.fileItem {
+  padding-left: 1rem;
+}
+
+.fileItem:hover {
+  background: #24292e;
+}
