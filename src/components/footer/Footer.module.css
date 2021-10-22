@@ -1,0 +1,18 @@
+.footer {
+  height: 3.5vh;
+  background: #0f8bd3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  width: 16rem;
+  display: flex;
+  justify-content: space-around;
+}

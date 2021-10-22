@@ -50,19 +50,19 @@
 }
 
 .control-buttons > a {
-  width: 1rem;
-  height: 1rem;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 50%;
 }
 
 .yellow-button {
-  background: yellow;
+  background: #f1fa8c;
 }
 
 .green-button {
-  background: green;
+  background: #50fa7b;
 }
 
 .red-button {
-  background: red;
+  background: #f55;
 }
