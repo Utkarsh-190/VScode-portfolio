@@ -1,4 +1,4 @@
-import "./Body.css";
+import classes from "./Body.module.css";
 
 function Body() {
   return (

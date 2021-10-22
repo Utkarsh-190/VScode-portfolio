@@ -1,4 +1,4 @@
-import "./TextArea.css";
+import classes from "./TextArea.module.css";
 
 function TextArea() {
   return <></>;

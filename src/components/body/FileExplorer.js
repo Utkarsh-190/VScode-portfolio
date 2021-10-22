@@ -1,4 +1,4 @@
-import "./FileExplorer.css";
+import classes from "./FileExplorer.module.css";
 
 function FileExplorer() {
   return <></>;
