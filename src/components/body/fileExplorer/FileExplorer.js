@@ -7,7 +7,7 @@ function FileExplorer(props) {
     "about.html",
     "contact.css",
     "project.js",
-    "acticles.json",
+    "articles.json",
     "github.md",
   ];
 
@@ -16,9 +16,15 @@ function FileExplorer(props) {
       <div className={classes.explorerHead}>EXPLORER</div>
       <div className={classes.portfolioDropDown}>PORTFOLIO</div>
 
-      <div className={classes.fileItems}>
+      <div className={classes.fileItems} onFileChange={props.onFileChange}>
         {fileNames.map((name) => {
-          return <FileExplorerItem name={name} />;
+          return (
+            <FileExplorerItem
+              name={name}
+              page={props.page}
+              onFileChange={props.onFileChange}
+            />
+          );
         })}
       </div>
     </div>

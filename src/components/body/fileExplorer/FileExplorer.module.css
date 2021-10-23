@@ -18,8 +18,3 @@
   display: flex;
   flex-direction: column;
 }
-
-.fileItems > * {
-  padding-top: 0.4rem;
-  font-size: 0.875rem;
-}
