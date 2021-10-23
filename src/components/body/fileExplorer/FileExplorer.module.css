@@ -1,6 +1,6 @@
 .fileExplorer {
-  /* padding: 10px 0px 0px 15px; */
   background: #1f2428;
+  border-right: 1px solid #191d20;
 }
 
 .explorerHead {

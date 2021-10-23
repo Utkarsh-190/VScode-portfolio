@@ -3,6 +3,7 @@
   background: #1f2428;
   color: white;
   font-size: 14px;
+  border-bottom: 1px solid #191d20;
   display: flex;
   justify-content: space-between;
   align-items: center;

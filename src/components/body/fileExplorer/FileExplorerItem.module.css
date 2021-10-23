@@ -1,5 +1,8 @@
 .fileItem {
+  all: unset;
   padding-left: 1rem;
+  cursor: pointer;
+  font-size: 0.875rem;
 }
 
 .fileItem:hover {
