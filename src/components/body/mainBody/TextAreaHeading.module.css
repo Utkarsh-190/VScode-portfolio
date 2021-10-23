@@ -9,5 +9,18 @@
 }
 
 .heading:active {
+  /* border-top: 1px solid #f9826c; */
+}
+
+.selected {
+  font-weight: 800;
   border-top: 1px solid #f9826c;
+}
+
+.yes {
+  color: green;
+}
+
+.no {
+  color: red;
 }

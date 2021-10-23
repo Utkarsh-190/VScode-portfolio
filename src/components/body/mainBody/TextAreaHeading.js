@@ -1,12 +1,18 @@
+import { useState } from "react";
 import classes from "./TextAreaHeading.module.css";
 
 function TextAreaHeading(props) {
-  const handler = (event) => {
-    props.onClick(props.name);
-  };
+  // let [selected, setSelected] = useState(false);
 
   return (
-    <span className={classes.heading} onClick={handler}>
+    <span
+      className={`
+        ${classes.heading} 
+        ${props.page == props.name ? "classes.selected" : ""} 
+        ${2 > 1 ? "classes.yes" : "classes.no"}
+      `}
+      onClick={props.onClick}
+    >
       {props.name}
     </span>
   );
