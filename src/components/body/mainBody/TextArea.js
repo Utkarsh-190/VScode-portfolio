@@ -12,19 +12,14 @@ function TextArea(props) {
     "github.md",
   ];
 
-  let onClickHandler = (event) => {
-    // console.log(event.target.innerHTML);
-    props.onFileChange(event);
-  };
-
   return (
     <div className={`${classes.textArea} ${props.className}`}>
-      <div className={classes.headings} onClick={onClickHandler}>
+      <div className={classes.headings}>
         {fileNames.map((name) => {
           return (
             <TextAreaHeading
               name={name}
-              onClick={onClickHandler}
+              onClick={props.onFileChange}
               page={props.page}
             />
           );

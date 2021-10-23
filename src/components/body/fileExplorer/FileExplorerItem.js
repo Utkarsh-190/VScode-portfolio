@@ -6,10 +6,6 @@ import json from "../../../public/images/techImages/json_icon.svg";
 import md from "../../../public/images/techImages/markdown_icon.svg";
 import react from "../../../public/images/techImages/react_icon.svg";
 
-function getExtension(str) {
-  return str.substring(str.search(".") + 1, str.length);
-}
-
 function FileExplorerItem(props) {
   let image;
   if (props.name === "home.jsx") {
@@ -26,8 +22,12 @@ function FileExplorerItem(props) {
     image = <img src={md} />;
   }
 
+  let clickHandler = (event) => {
+    props.onClick(props.name);
+  };
+
   return (
-    <div className={classes.fileItem} onClick={props.onFileChange}>
+    <div className={classes.fileItem} onClick={clickHandler}>
       {image}
       <div>{props.name}</div>
     </div>

@@ -16,13 +16,13 @@ function FileExplorer(props) {
       <div className={classes.explorerHead}>EXPLORER</div>
       <div className={classes.portfolioDropDown}>PORTFOLIO</div>
 
-      <div className={classes.fileItems} onFileChange={props.onFileChange}>
+      <div className={classes.fileItems}>
         {fileNames.map((name) => {
           return (
             <FileExplorerItem
               name={name}
               page={props.page}
-              onFileChange={props.onFileChange}
+              onClick={props.onFileChange}
             />
           );
         })}

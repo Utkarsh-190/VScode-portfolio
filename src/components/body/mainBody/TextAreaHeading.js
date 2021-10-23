@@ -30,13 +30,17 @@ function TextAreaHeading(props) {
     image = <img src={md} />;
   }
 
+  let clickHandler = (event) => {
+    props.onClick(props.name);
+  };
+
   return (
     <div // className={`${classes.heading} ${true ? "classes.selected" : ""}`}
       className={classNames({
         heading: true,
         selected: selected,
       })}
-      // onClick={props.onClick}
+      onClick={clickHandler}
     >
       {image}
       <a>{props.name}</a>

@@ -8,8 +8,8 @@ function Body() {
   let [page, setPage] = useState("home.jsx");
 
   let fileChangeHandler = (event) => {
-    console.log(event.target.innerHTML);
-    setPage(event.target.innerHTML);
+    console.log(event);
+    setPage(event);
   };
 
   return (
