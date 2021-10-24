@@ -1,0 +1,48 @@
+.background {
+  position: absolute;
+  font-size: 9rem;
+  font-weight: 1000;
+  opacity: 0.03;
+}
+
+.foreground {
+  height: 30em;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.intro > div:nth-of-type(2) {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+/* 
+.buttons {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.buttons > button {
+  all: unset;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1.5rem;
+}
+
+.buttons > button:hover {
+  box-shadow: 3px 3px 10px black;
+}
+
+.buttons > button:first-child {
+  background: #f9826c;
+}
+
+.buttons > button:nth-of-type(2) {
+  border: 2px solid #f9826c;
+}

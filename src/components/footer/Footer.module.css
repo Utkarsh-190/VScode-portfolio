@@ -7,13 +7,33 @@
 }
 
 .left {
-  width: 8rem;
+  width: 10rem;
   display: flex;
   justify-content: space-around;
 }
 
+.left > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left > div > * {
+  padding: 0 0.125rem;
+}
+
 .right {
-  width: 16rem;
+  width: 18rem;
   display: flex;
   justify-content: space-around;
+}
+
+.right > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right > div > * {
+  padding: 0 0.125rem;
 }

@@ -1,4 +1,4 @@
-// import classes from "./TextPage.module.css";
+import classes from "./TextPage.module.css";
 import Home from "./textPages/Home";
 import About from "./textPages/About";
 import Contact from "./textPages/Contact";
@@ -23,7 +23,9 @@ function TextPage(props) {
     textPage = <Github />;
   }
 
-  return textPage;
+  return (
+    <div className={`${classes.textPage} ${props.className}`}>{textPage}</div>
+  );
 }
 
 export default TextPage;

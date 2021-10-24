@@ -26,7 +26,7 @@ function TextArea(props) {
         })}
       </div>
 
-      {<TextPage page={props.page} />}
+      {<TextPage page={props.page} className={classes.textPage} />}
     </div>
   );
 }
