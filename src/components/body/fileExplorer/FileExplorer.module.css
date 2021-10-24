@@ -18,3 +18,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 600px) {
+  .fileExplorer {
+    display: none;
+  }
+}

@@ -1,5 +1,5 @@
 .body {
-  height: 92.5vh;
+  height: 92.4vh;
   color: white;
   display: flex;
 }
@@ -9,9 +9,9 @@
 }
 
 .fileExplorer {
-  flex: 1 0 10rem;
+  flex: 1 1 10rem;
 }
 
 .textArea {
-  flex: 20 0 30rem;
+  flex: 20 20 30rem;
 }

@@ -1,6 +1,4 @@
-// import classes from "./TextAreaHeading.module.css";
-import "./TextAreaHeading.css";
-import classNames from "classnames";
+import classes from "./TextAreaHeading.module.css";
 import html from "../../../public/images/techImages/html_icon.svg";
 import css from "../../../public/images/techImages/css_icon.svg";
 import js from "../../../public/images/techImages/js_icon.svg";
@@ -10,10 +8,6 @@ import react from "../../../public/images/techImages/react_icon.svg";
 
 function TextAreaHeading(props) {
   let selected = props.name === props.page;
-
-  // console.log(selected);
-  // console.log("name: ", props.name);
-  // console.log("page: ", props.page);
 
   let image;
   if (props.name === "home.jsx") {
@@ -35,11 +29,8 @@ function TextAreaHeading(props) {
   };
 
   return (
-    <div // className={`${classes.heading} ${true ? "classes.selected" : ""}`}
-      className={classNames({
-        heading: true,
-        selected: selected,
-      })}
+    <div
+      className={`${classes.heading} ${selected ? classes.selected : ""}`}
       onClick={clickHandler}
     >
       {image}

@@ -22,7 +22,7 @@ function FileExplorerItem(props) {
     image = <img src={md} />;
   }
 
-  let clickHandler = (event) => {
+  let clickHandler = () => {
     props.onClick(props.name);
   };
 
