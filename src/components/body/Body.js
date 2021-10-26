@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import classes from "./Body.module.css";
 import ActivityBar from "./activityBar/ActivityBar";
 import FileExplorer from "./fileExplorer/FileExplorer";
@@ -7,8 +7,16 @@ import TextArea from "./mainBody/TextArea";
 function Body() {
   let [page, setPage] = useState("home.jsx");
 
+  useEffect(() => {
+    let curPage = sessionStorage.getItem("page");
+    if (curPage) {
+      setPage(curPage);
+    }
+  }, []);
+
   let fileChangeHandler = (event) => {
     console.log(event);
+    sessionStorage.setItem("page", event);
     setPage(event);
   };
 
