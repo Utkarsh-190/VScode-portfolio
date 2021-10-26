@@ -1,0 +1,14 @@
+.projectPage {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.projectPage > * {
+  width: 230px;
+  max-width: 300px;
+  min-width: 200px;
+  margin: 10px;
+  border: 1px solid orangered;
+  flex: 1 1;
+}
