@@ -1,3 +1,23 @@
 .textPage {
   padding: 2rem;
 }
+
+@media (max-width: 1200px) {
+  .textPage {
+    overflow-y: scroll;
+  }
+
+  .textPage::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  .textPage::-webkit-scrollbar-track {
+    border-left: 0.5px solid #1b1f23;
+    background: #24292e;
+  }
+
+  .textPage::-webkit-scrollbar-thumb {
+    border-left: 0.5px solid #1b1f23;
+    background: #333536;
+  }
+}

@@ -100,7 +100,32 @@ function Contact() {
 
       <div className={classes.form}>
         <div>Or Fill Out The Form</div>
-        <div>blah blah form</div>
+        <div className={classes.formContent}>
+          <div className={classes.nameAndEmail}>
+            <div>
+              <label htmlFor="name">NAME</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div>
+              <label htmlFor="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
+          </div>
+
+          <div className={classes.subject}>
+            <label htmlFor="subject">SUBJECT</label>
+            <input type="text" name="subject" id="subject" />
+          </div>
+
+          <div className={classes.message}>
+            <label htmlFor="message">MESSAGE</label>
+            <textarea name="message" id="message" rows="5"></textarea>
+          </div>
+
+          <div>
+            <button type="submit">SUBMIT</button>
+          </div>
+        </div>
       </div>
     </div>
   );

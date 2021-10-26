@@ -8,38 +8,36 @@ import BellIcon from "../icons/BellIcon";
 
 function Footer() {
   return (
-    <>
-      <div className={classes.footer}>
-        <div className={classes.left}>
-          <div>
-            <GitCompareIcon />
-            <span>main</span>
-          </div>
-          <div>
-            <ErrorIcon />
-            <span>0</span>
-          </div>
-          <div>
-            <WarningIcon />
-            <span>0</span>
-          </div>
+    <div className={classes.footer}>
+      <div className={classes.left}>
+        <div>
+          <GitCompareIcon />
+          <span>main</span>
         </div>
-
-        <div className={classes.right}>
-          <div>
-            <CodeIcon />
-            <span>Powered by React.js</span>
-          </div>
-          <div>
-            <CheckIcon />
-            <span>Prettier</span>
-          </div>
-          <div>
-            <BellIcon />
-          </div>
+        <div>
+          <ErrorIcon />
+          <span>0</span>
+        </div>
+        <div>
+          <WarningIcon />
+          <span>0</span>
         </div>
       </div>
-    </>
+
+      <div className={classes.right}>
+        <div>
+          <CodeIcon />
+          <span>Powered by React.js</span>
+        </div>
+        <div>
+          <CheckIcon />
+          <span>Prettier</span>
+        </div>
+        <div>
+          <BellIcon />
+        </div>
+      </div>
+    </div>
   );
 }
 
