@@ -10,7 +10,7 @@ function TextPage(props) {
   let textPage;
 
   if (props.page === "home.jsx") {
-    textPage = <Home />;
+    textPage = <Home onClick={props.onClick} />;
   } else if (props.page === "about.html") {
     textPage = <About />;
   } else if (props.page === "contact.css") {

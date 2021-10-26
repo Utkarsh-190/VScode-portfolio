@@ -77,7 +77,9 @@ function ActivityBar(props) {
         >
           <AcountIcon />
         </div>
-        <SettingIcon />
+        <div>
+          <SettingIcon />
+        </div>
       </div>
     </div>
   );

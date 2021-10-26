@@ -1,6 +1,14 @@
 import classes from "./Home.module.css";
 
-function Home() {
+function Home(props) {
+  const projectClickHandler = () => {
+    props.onClick("project.js");
+  };
+
+  const contactClickHandler = () => {
+    props.onClick("contact.css");
+  };
+
   return (
     <div className={classes.homePage}>
       <div className={classes.background}>I BUILD WEBSITE</div>
@@ -10,10 +18,11 @@ function Home() {
           <div>UTKARSH TYAGI</div>
           <div>FRONTEND WEB DEVELOPER</div>
           <div className={classes.buttons}>
-            <button>View Work</button>
-            <button>Contact Me</button>
+            <button onClick={projectClickHandler}>View Work</button>
+            <button onClick={contactClickHandler}>Contact Me</button>
           </div>
         </div>
+
         <div className={classes.design}>Design</div>
       </div>
     </div>
