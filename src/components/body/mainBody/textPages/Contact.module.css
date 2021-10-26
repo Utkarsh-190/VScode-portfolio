@@ -1,9 +1,49 @@
 .contactPage {
+  font-family: JetBrains Mono, monospace;
   display: flex;
   justify-content: space-between;
 }
 
+.contactPage > div {
+  flex: 1 1 300px;
+  margin-bottom: 2.5rem;
+}
+
+.socials {
+  margin-right: 2rem;
+  border-right: 2px solid #f9826c;
+  counter-reset: line;
+}
+
 .contactPage > div > div:first-child {
+  margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.socials > div > div::before {
+  margin-right: 1rem;
+  content: counter(line);
+  counter-increment: line;
+  color: grey;
+}
+
+.socials > div:last-child {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.socials span,
+.socials a {
+  color: #f9826c;
+}
+
+@media (max-width: 1200px) {
+  .contactPage {
+    flex-direction: column;
+  }
+
+  .socials {
+    border: none;
+  }
 }
