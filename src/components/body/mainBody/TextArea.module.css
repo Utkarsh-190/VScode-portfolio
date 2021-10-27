@@ -5,6 +5,8 @@
 }
 
 .headings {
+  overflow-x: hidden;
+  overflow-y: hidden;
   height: 2.25rem;
   background: #1f2428;
   display: flex;

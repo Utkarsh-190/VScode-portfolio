@@ -1,5 +1,6 @@
 .body {
   height: 92.5%;
+  width: 100vw;
   display: flex;
 }
 
