@@ -26,13 +26,11 @@ function TextArea(props) {
         })}
       </div>
 
-      {
-        <TextPage
-          className={classes.textPage}
-          onClick={props.onFileChange}
-          page={props.page}
-        />
-      }
+      <TextPage
+        className={classes.textPage}
+        onClick={props.onFileChange}
+        page={props.page}
+      />
     </div>
   );
 }

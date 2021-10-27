@@ -12,5 +12,6 @@
 }
 
 .textArea {
-  flex: 20 20 30rem;
+  width: 200px;
+  flex: 20 20 600px;
 }

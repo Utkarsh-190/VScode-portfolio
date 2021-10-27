@@ -11,8 +11,10 @@ function Footer() {
     <div className={classes.footer}>
       <div className={classes.left}>
         <div>
-          <GitCompareIcon />
-          <span>main</span>
+          <a href="https://github.com/Utkarsh-190/portfolio" target="_blank">
+            <GitCompareIcon />
+            <span>main</span>
+          </a>
         </div>
         <div>
           <ErrorIcon />

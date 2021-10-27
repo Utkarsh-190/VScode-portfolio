@@ -2,7 +2,7 @@ import classes from "./TextPage.module.css";
 import Home from "./textPages/Home";
 import About from "./textPages/About";
 import Contact from "./textPages/Contact";
-import Project from "./textPages/Project";
+import Project from "./textPages/project_views/Project";
 import Articles from "./textPages/Articles";
 import Github from "./textPages/Github";
 
