@@ -1,9 +1,17 @@
 .projectCard {
   font-family: JetBrains Mono, monospace;
   background: #1f2428;
+  box-sizing: border-box;
   border-radius: 20px;
   display: flex;
   flex-flow: column;
+  opacity: 0.9;
+  transition: 0.3s ease-in-out;
+}
+
+.projectCard:hover {
+  box-shadow: 3px 3px 10px black;
+  opacity: 1;
 }
 
 /* ----- image part -------------*/

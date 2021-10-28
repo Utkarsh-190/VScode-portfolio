@@ -9,6 +9,13 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  opacity: 0.9;
+  transition: 0.3s ease-in-out;
+}
+
+.aboutPage > img:hover {
+  box-shadow: 3px 3px 7px rgb(130, 2, 204);
+  opacity: 1;
 }
 
 .aboutText {
