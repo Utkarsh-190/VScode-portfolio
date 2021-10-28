@@ -1,0 +1,30 @@
+.aboutPage {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.aboutPage > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.aboutText {
+  width: 60vw;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.aboutText > span,
+.aboutText > span > a {
+  color: #f9826c;
+  text-decoration: none;
+}
+
+.aboutText > span > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f9826c;
+}
