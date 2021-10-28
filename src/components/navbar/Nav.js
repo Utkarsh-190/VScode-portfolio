@@ -13,7 +13,7 @@ function Nav(props) {
           />
           <span>File</span>
           <span>Edit</span>
-          <span>Selection</span>
+          {/* <span>Selection</span> */}
           <span>View</span>
           <span>Go</span>
           <span>Run</span>

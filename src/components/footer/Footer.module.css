@@ -45,3 +45,13 @@
 .right > div > * {
   padding: 0 0.125rem;
 }
+
+@media screen and (max-width: 450px) {
+  .right {
+    width: 8rem;
+  }
+
+  .right > div:first-child {
+    display: none;
+  }
+}

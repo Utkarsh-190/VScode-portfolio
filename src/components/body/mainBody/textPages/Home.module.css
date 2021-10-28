@@ -1,15 +1,20 @@
+.homePage {
+  height: 100%;
+}
+
 .background {
+  width: 50vw;
+  margin-left: 27vw;
   position: absolute;
-  font-size: 9rem;
+  font-size: 8.5rem;
   font-weight: 1000;
   opacity: 0.03;
 }
 
 .foreground {
-  height: 30em;
+  height: 100%;
   position: relative;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -22,11 +27,6 @@
   font-size: 1.5rem;
   font-weight: 300;
 }
-/* 
-.buttons {
-  display: flex;
-  justify-content: space-around;
-} */
 
 .buttons > button {
   all: unset;
@@ -45,4 +45,14 @@
 
 .buttons > button:nth-of-type(2) {
   border: 2px solid #f9826c;
+}
+
+@media screen and (max-width: 1180px) {
+  .background {
+    display: none;
+  }
+
+  .foreground {
+    justify-content: center;
+  }
 }

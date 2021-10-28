@@ -23,7 +23,7 @@ function Home(props) {
           </div>
         </div>
 
-        <div className={classes.design}>Design</div>
+        {/* <div className={classes.design}>Design</div> */}
       </div>
     </div>
   );
