@@ -20,13 +20,15 @@
   justify-content: space-around;
 }
 
-.left > div {
+.left > div,
+.left > div > a {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.left > div > * {
+.left > div > *,
+.left > div > a > * {
   padding: 0 0.125rem;
 }
 

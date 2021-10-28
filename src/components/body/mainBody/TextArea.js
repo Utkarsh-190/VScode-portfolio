@@ -8,8 +8,8 @@ function TextArea(props) {
     "about.html",
     "contact.css",
     "project.js",
-    "articles.json",
-    "github.md",
+    // "articles.json",
+    // "github.md",
   ];
 
   return (

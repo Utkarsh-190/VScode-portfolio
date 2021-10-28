@@ -42,12 +42,12 @@ function ActivityBar(props) {
           <FilesIcon />
         </div>
 
-        <div
+        {/* <div
           onClick={githubIconHandler}
           className={props.page === "github.md" ? classes.selected : ""}
         >
           <GithubIcon />
-        </div>
+        </div> */}
 
         <div
           onClick={codeIconHandler}
@@ -56,12 +56,12 @@ function ActivityBar(props) {
           <CodeIcon />
         </div>
 
-        <div
+        {/* <div
           onClick={pencilIconHandler}
           className={props.page === "articles.json" ? classes.selected : ""}
         >
           <PencilIcon />
-        </div>
+        </div> */}
 
         <div
           onClick={mailIconHandler}
@@ -69,14 +69,15 @@ function ActivityBar(props) {
         >
           <MailIcon />
         </div>
-      </div>
-      <div className={classes.down}>
+
         <div
           onClick={acountIconHandler}
           className={props.page === "about.html" ? classes.selected : ""}
         >
           <AcountIcon />
         </div>
+      </div>
+      <div className={classes.down}>
         <div>
           <SettingIcon />
         </div>
