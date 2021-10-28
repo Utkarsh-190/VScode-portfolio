@@ -44,6 +44,12 @@
 
 /* ------- form css --------- */
 
+.form {
+  display: none;
+}
+
+/* --- remove above line to show form --- */
+
 .formContent {
   font-size: 0.8rem;
   display: flex;
@@ -79,6 +85,26 @@ textarea:focus {
   border: 1px solid #f9826c;
 }
 
+.button {
+  width: auto;
+  /* display: inline; */
+
+  box-sizing: border-box;
+  background: #f9826c;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  border: none;
+  color: #24292e;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.button:hover {
+  box-shadow: 3px 3px 10px black;
+}
+
+/* 
 .formContent button {
   box-sizing: border-box;
   background: #f9826c;
@@ -90,6 +116,11 @@ textarea:focus {
   font-size: 0.9rem;
   font-weight: 700;
 }
+
+.formContent button:hover {
+  box-shadow: 3px 3px 10px black;
+}
+*/
 
 @media (max-width: 1200px) {
   .contactPage {
