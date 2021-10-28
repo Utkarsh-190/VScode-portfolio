@@ -15,8 +15,12 @@ function Home(props) {
 
       <div className={classes.foreground}>
         <div className={classes.intro}>
-          <div>UTKARSH TYAGI</div>
-          <div>FRONTEND WEB DEVELOPER</div>
+          <div>Utkarsh Tyagi</div>
+
+          <div className={classes.typewriter}>
+            <h1>Frontend Web Developer</h1>
+          </div>
+
           <div className={classes.buttons}>
             <button onClick={projectClickHandler}>View Work</button>
             <button onClick={contactClickHandler}>Contact Me</button>

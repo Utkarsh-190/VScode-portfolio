@@ -1,9 +1,6 @@
 .textPage {
+  font-family: JetBrains Mono, monospace;
   padding: 2rem;
-  overflow-y: scroll;
-}
-
-.textPage {
   overflow-y: scroll;
 }
 
