@@ -1,6 +1,6 @@
 .contactPage {
   box-sizing: border-box;
-  height: 530px;
+  /* height: 530px; */ /* commented because of removing form*/
   font-family: JetBrains Mono, monospace;
   display: flex;
   justify-content: space-between;
@@ -8,14 +8,14 @@
 
 .contactPage > div {
   flex: 1 1 300px;
-  margin-bottom: 2.5rem;
+  /* margin-bottom: 2.5rem; */ /* commented because of removing form*/
 }
 
 /* ------- socials css --------- */
 
 .socials {
   margin-right: 2rem;
-  border-right: 1px solid #f9826c;
+  /* border-right: 1px solid #f9826c; */ /* commented because of removing form*/
   counter-reset: line;
 }
 
