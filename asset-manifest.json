@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/VScode-portfolio/static/css/main.a8dafed3.chunk.css",
+    "main.js": "/VScode-portfolio/static/js/main.ac5b52c1.chunk.js",
+    "main.js.map": "/VScode-portfolio/static/js/main.ac5b52c1.chunk.js.map",
+    "runtime-main.js": "/VScode-portfolio/static/js/runtime-main.313e2dee.js",
+    "runtime-main.js.map": "/VScode-portfolio/static/js/runtime-main.313e2dee.js.map",
+    "static/js/2.58ecdea2.chunk.js": "/VScode-portfolio/static/js/2.58ecdea2.chunk.js",
+    "static/js/2.58ecdea2.chunk.js.map": "/VScode-portfolio/static/js/2.58ecdea2.chunk.js.map",
+    "static/js/3.0fa999f2.chunk.js": "/VScode-portfolio/static/js/3.0fa999f2.chunk.js",
+    "static/js/3.0fa999f2.chunk.js.map": "/VScode-portfolio/static/js/3.0fa999f2.chunk.js.map",
+    "index.html": "/VScode-portfolio/index.html",
+    "static/css/main.a8dafed3.chunk.css.map": "/VScode-portfolio/static/css/main.a8dafed3.chunk.css.map",
+    "static/js/2.58ecdea2.chunk.js.LICENSE.txt": "/VScode-portfolio/static/js/2.58ecdea2.chunk.js.LICENSE.txt",
+    "static/media/blue_color_movie_symbol.53278912.jpg": "/VScode-portfolio/static/media/blue_color_movie_symbol.53278912.jpg",
+    "static/media/css_icon.add2e81e.svg": "/VScode-portfolio/static/media/css_icon.add2e81e.svg",
+    "static/media/html_icon.81ea8ec6.svg": "/VScode-portfolio/static/media/html_icon.81ea8ec6.svg",
+    "static/media/js_icon.c33d040b.svg": "/VScode-portfolio/static/media/js_icon.c33d040b.svg",
+    "static/media/json_icon.4b50304b.svg": "/VScode-portfolio/static/media/json_icon.4b50304b.svg",
+    "static/media/markdown_icon.f4c40ee2.svg": "/VScode-portfolio/static/media/markdown_icon.f4c40ee2.svg",
+    "static/media/profile_pic.593ffc0a.png": "/VScode-portfolio/static/media/profile_pic.593ffc0a.png",
+    "static/media/purple_color_money_symbol.afbad590.jpg": "/VScode-portfolio/static/media/purple_color_money_symbol.afbad590.jpg",
+    "static/media/react_icon.3d6c4d1f.svg": "/VScode-portfolio/static/media/react_icon.3d6c4d1f.svg",
+    "static/media/red_color_shopping_cart.bc70b513.png": "/VScode-portfolio/static/media/red_color_shopping_cart.bc70b513.png",
+    "static/media/vscode_icon.a4b8e5c0.svg": "/VScode-portfolio/static/media/vscode_icon.a4b8e5c0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.313e2dee.js",
+    "static/js/2.58ecdea2.chunk.js",
+    "static/css/main.a8dafed3.chunk.css",
+    "static/js/main.ac5b52c1.chunk.js"
+  ]
+}
