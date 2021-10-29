@@ -45,8 +45,11 @@ function Contact() {
 
           <div>
             &nbsp;&nbsp;&nbsp;website:{" "}
-            <a href="https://www.google.com" target="_blank">
-              utkarsh.com
+            <a
+              href="https://utkarsh-190.github.io/VScode-portfolio/"
+              target="_blank"
+            >
+              portfolio
             </a>
             ;
           </div>
@@ -73,7 +76,7 @@ function Contact() {
               href="https://www.linkedin.com/in/utkarsh-tyagi-190/"
               target="_blank"
             >
-              utkarsh.com
+              utkarsh-tyagi-190
             </a>
             ;
           </div>

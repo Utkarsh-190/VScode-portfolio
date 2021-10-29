@@ -40,6 +40,11 @@
 .socials span,
 .socials a {
   color: #f9826c;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  text-decoration: underline;
 }
 
 /* ------- form css --------- */
