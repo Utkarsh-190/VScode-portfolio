@@ -14,7 +14,7 @@ function Project() {
       tags: ["react", "html", "css", "javascript"],
       links: {
         source: "https://github.com/Utkarsh-190/Expense-Tracker",
-        live: "#",
+        live: "https://utkarsh-190.github.io/Expense-Tracker/",
       },
     },
     {
