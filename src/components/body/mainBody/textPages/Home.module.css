@@ -51,7 +51,7 @@
 /* ----- typewriter effect ------- */
 
 .typewriter > h1 {
-  width: 93%;
+  width: 100%;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -71,7 +71,7 @@
     width: 0;
   }
   to {
-    width: 93%;
+    width: 100%;
   }
 }
 
